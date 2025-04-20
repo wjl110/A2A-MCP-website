@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# A2A-MCP 官方网站
 
-## Getting Started
+这是 A2A-MCP（Agent to Agent - Multi-agent Collaboration Protocol）的官方网站项目。该网站展示了我们的技术愿景、核心优势和应用场景。
 
-First, run the development server:
+## 技术栈
+
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- next-themes
+
+## 特性
+
+- 🎨 现代化的UI设计
+- 🌓 支持暗黑模式
+- 🎭 流畅的动画效果
+- 📱 完全响应式设计
+- 🚀 优化的性能
+- 🔍 SEO友好
+
+## 开始使用
+
+1. 克隆项目
+
+```bash
+git clone https://github.com/wjl110/A2A-MCP-website.git
+cd A2A-MCP-website
+```
+
+2. 安装依赖
+
+```bash
+npm install
+```
+
+3. 运行开发服务器
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. 打开浏览器访问 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 项目结构
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── components/     # React组件
+│   ├── lib/           # 工具函数和hooks
+│   ├── styles/        # 样式文件
+│   └── page.tsx       # 主页面
+├── public/            # 静态资源
+└── types/            # TypeScript类型定义
+```
 
-## Learn More
+## 贡献
 
-To learn more about Next.js, take a look at the following resources:
+欢迎提交 Pull Request 和 Issue！
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 许可证
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
