@@ -1,4 +1,5 @@
 # A2A-MCP 官方网站
+[![Netlify Status](https://api.netlify.com/api/v1/badges/614b9180-6778-4e5a-8a38-07df9203144c/deploy-status)](https://app.netlify.com/sites/a2a-mcp/deploys)
 
 这是 A2A-MCP（Agent to Agent - Multi-agent Collaboration Protocol）的官方网站项目。该网站展示了我们的技术愿景、核心优势和应用场景。
 
