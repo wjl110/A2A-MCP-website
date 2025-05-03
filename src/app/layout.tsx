@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "A2A-MCP | 重新定义智能协作的边界",
-  description: "通过A2A-MCP协议，实现跨设备、跨模型、跨场景的智能协作。",
+  title: "A2A-MCP | 向手动操作Say Goodbye",
+  description: "通过A2A-MCP混合架构协议，实现跨设备、跨模型、跨场景下的自主协商、模型驱动、主动安全为企业实现降本增效,构建万物互联新范式。",
 };
 
 export default function RootLayout({
